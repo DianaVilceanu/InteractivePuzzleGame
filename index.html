@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Jigsaw Puzzle Game</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container-lg" id="gameContainer">
+        <img src="text.png" id="imageText">
+        <canvas id="puzzleCanvas" width="300px" height="500px">
+        </canvas>
+    </div>
+    <img id="previewImage" src="image.jpg" style="position: absolute; top: 10px; right: 10px;">
+    <div class="container-lg" id="changeImageContainer">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <input type="file" id="imageUpload" accept="image/*" class="form-control">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <button id="changeImage" class="btn btn-primary">Change Image</button>
+            </div>
+        </div>
+    </div>
+    <div class="toast" id="puzzleSolvedToast" style="position: absolute; top: 0; right: 0;">
+        <div class="toast-header">
+            <strong class="me-auto">Jigsaw Puzzle Game</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Congratulations! You've solved the puzzle.
+        </div>
+    </div>
+</body>
+</html>

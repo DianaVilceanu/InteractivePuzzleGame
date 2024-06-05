@@ -1,0 +1,52 @@
+body {
+    background: url('background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+#previewImage {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: auto;
+}
+
+#changeImageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px; 
+}
+
+#puzzleCanvas{
+    border: 1px solid #dee2e6;
+}
+#imageText{
+    width:500px;
+    height:100px;
+}
+
+
+canvas {
+    border: 1px solid #dee2e6;
+    align-items: center;
+    
+}
+
+
+
+
