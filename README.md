@@ -1,0 +1,1 @@
+This project is a web-based game developed using HTML, CSS, and JavaScript. This educational project focuses on creating an engaging sliding puzzle game where players must arrange tiles in a specific order. The game provides an interactive experience by allowing players to move tiles using mouse clicks, keyboard arrow keys, or touch screen taps.
